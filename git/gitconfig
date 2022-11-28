@@ -1,7 +1,6 @@
 [user]
-    name = Arnaud PERALTA
-    email = arnaud.peralta@gmail.com
-	signingkey = 12B89077C68DE7A8
+    name = Julien LAMY
+    email = j.lamy@proxiad.com
 
 [core]
     excludefile = ~/dotfiles/git/gitignore
@@ -38,9 +37,6 @@
     # Add modified files to previous commit
     oups = !"git add -A -v && git commit --amend -C HEAD"
 
-[github]
-    user = arnaudperalta
-
 [rerere]
     enabled = true
 
@@ -53,6 +49,6 @@
 [merge]
     summary = true
     verbosity = 1
-    tool = meld
+
 [init]
 	defaultBranch = main
